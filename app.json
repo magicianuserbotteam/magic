@@ -1,0 +1,64 @@
+{
+    "name": "Magician Userbot",
+    "description": "Jangan lupa leave review ya, deploy untuk menggunakan.",
+    "logo": "https://telegra.ph/file/031957757a4f6a5191040.jpg",
+    "keywords": [
+        "Telethon",
+        "telegram",
+        "userbot",
+        "python",
+        "ultroid"
+    ],
+    "repository": "https://github.com/MagicianUserbotTeam/Magic",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "App id dari @ScrapperRoBot.",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Api hash dari @ScrapperRoBot.",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Buat bot @BotFather, dan input api tokennya.",
+            "value": ""
+        },
+        "SESSION": {
+            "description": "String sesionmu. (Bot tidak jalan tanpa string sesion!!)",
+            "value": ""
+        },
+        "REDIS_URI": {
+            "description": "Redis endpoint dari redislabs.com",
+            "value": ""
+        },
+        "REDIS_PASSWORD": {
+            "description": "Password redis endpoint dari redislabs.com",
+            "value": ""
+        },
+        "HEROKU_API": {
+            "description": "Ndak mau bisa isi juga bisa.",
+            "value": "",
+            "required": false
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Agar bisa mendapatkan statistik.",
+            "value": "",
+            "required": false
+        },
+        "LOG_CHANNEL": {
+            "description": "Buat group. Tambah @missrose_bot. Ketik /id. Paste disini",
+            "value": ""
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        },
+        "web": {
+            "quantity": 0,
+            "size": "free"
+        }
+    }
+}
