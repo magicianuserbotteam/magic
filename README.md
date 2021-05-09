@@ -1,6 +1,6 @@
 # magic
 Userbot mudah yang berbasis telethon
-[![catuserbot logo](https://www.linkpicture.com/q/IMG_20210430_143405_094.jpg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fmagicianuserbotteam%2Fmagic%2Ftree%2Fbugs&template=https%3A%2F%2Fgithub.com%2Fmagicianuserbotteam%2Fmagic)
+[![catuserbot logo](https://i.ibb.co/C6SLxTz/20210514-175100.jpg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fmagicianuserbotteam%2Fmagic%2Ftree%2Fbugs&template=https%3A%2F%2Fgithub.com%2Fmagicianuserbotteam%2Fmagic)
 
 
 ### Heroku Deploy
