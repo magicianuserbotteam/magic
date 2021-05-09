@@ -1,0 +1,147 @@
+{
+  "name": "Deryl UserBot",
+  "description": "Userbot created by @DerylItTeam  and join https://t.me/deryluserbothelp for any problems or support",
+  "logo": "https://www.linkpicture.com/q/IMG_20210430_143405_094.jpg",
+    "keywords": [
+    "telegram",
+    "userbot",
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/macan-termux/deryluser",
+  "website": "#TODO",
+  "success_url": "#TODO",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable heroku.",
+      "value": "ANYTHING"
+    },
+    "TEMP_DOWNLOAD_DIRECTORY": {
+      "description": "kemana download pergi.",
+      "value": "./userbot/DOWNLOADS/",
+      "required": false
+    },
+    "CUSTOM_PMPERMIT": {
+      "description": "Enter Custom Middle Pm Permit To Show When Some One PM You.",
+      "value": "",
+      "required": false
+    },
+    "ALIVE_NAME": {
+      "description": "Masukkan nama aslimu ( kesempurnaan bot ).",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "dapatkan di my.telegram.org! Mohon jangan mencuri",
+      "value": ""
+    },
+    "REM_BG_API_KEY": {
+      "description": "Untuk menghapus background. Dapatkan di https://www.remove.bg/",
+      "value": "",
+      "required": false
+    },
+    "API_HASH": {
+      "description": "Dapatkan di my.telegram.org! Mohon jangan mencuri",
+      "value": ""
+    },
+    "PLUGIN_CHANNEL": {
+      "description": "Buat group dan tambahkan @MissRoseBot dan ketik /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID harus kembar identik!",
+      "value": ""
+    },
+    "PRIVATE_GROUP_ID": {
+      "description": "Buat group dan tambahkan @MissRoseBot dan ketik /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID harus kembar identik!",
+      "value": ""
+    },
+    "STRING_SESSION": {
+      "description": "Dapatkan di https://replit.com/@macantermux/Deryl",
+      "value": ""
+    },
+    "GITHUB_ACCESS_TOKEN": {
+      "description": "Github Acsess token mu.",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_API_KEY": {
+      "description": "Ambil di https://dashboard.heroku.com/account, scroll ke bawah dan pencet reveal API.Agar updater berfungsi.",
+      "value": ""
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Nama aplikasi di heroku untuk update.",
+      "value": ""
+    },
+    "TG_BOT_TOKEN_BF_HER": {
+      "description": "Masukan api botmu, jangan lupa nyalakan inline buttonnya.",
+      "value": ""
+    },
+    "CHROME_BIN": {
+      "description": "Jangan diubah! ",
+      "value": "/app/.apt/usr/bin/google-chrome",
+      "required": false
+    },
+    "CHROME_DRIVER": {
+      "description": "Jangan diubah! ",
+      "value": "/app/.chromedriver/bin/chromedriver",
+      "required": false
+    },
+    "ALIVE_PIC": {
+      "description": "Untuk .alive ",
+      "value": "",
+      "required": false
+    },
+    "TG_BOT_USER_NAME_BF_HER": {
+      "description": "Masukkan api botmu, jangan lupa nyalakan inline buttonnya",
+      "value": ""
+    },
+    "DOWNLOAD_PFP_URL_CLOCK": {
+      "description": "Url untuk foto profilmu",
+      "value": "",
+      "required": false
+    },
+    "OPEN_WEATHER_MAP_APPID": {
+      "description": "Dapatkan di://api.openweathermap.org/data/2.5/weather",
+      "required": false
+    },
+    "PRIVATE_CHANNEL_BOT_API_ID": {
+      "description": "Buat group dan tambahkan @MissRoseBot dan ketik /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID harus kembar identik!",
+      "required": false
+    },
+    "Pm log id": {
+      "description": "Log botmu <tidak berguna>",
+      "required": false
+
+
+    },
+    "Time zone": {
+      "description": "untuk waktu lebih tepat, dapatkan di http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
+      "value": "",
+      "required": false
+    }
+
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "9.6"
+    }
+  }],
+"buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/amivin/aria2-heroku.git"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-chromedriver"
+    },
+    {
+      "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
